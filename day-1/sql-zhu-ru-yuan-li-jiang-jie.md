@@ -80,7 +80,7 @@ A向B传输数据，C将数据替换
 
 ![字符型](<../.gitbook/assets/image (3).png>)
 
-![搜索型](<../.gitbook/assets/image (8).png>)
+![搜索型](<../.gitbook/assets/image (8) (1).png>)
 
 ![](<../.gitbook/assets/image (11).png>)
 

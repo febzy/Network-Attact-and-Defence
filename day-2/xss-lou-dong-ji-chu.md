@@ -38,20 +38,22 @@
 
 4.命令格式 .\xray -h
 
-5.扫描漏洞指令 .\xray webscan --basic-crawler [url](http://testphp.vulnweb.com/)
+5.扫描漏洞指令 .\xray webscan --basic-crawle url（http://testphp.vulnweb.com/）
 
-
-
-\[Vuln: xss]&#x20;
-
-Target "http://testphp.vulnweb.com/guestbook.php"&#x20;
-
-VulnType "reflected/default"&#x20;
-
-Payload "《》alert(1)"&#x20;
-
-Position "body"&#x20;
-
-ParamKey "text"&#x20;
-
+```
+[Vuln: xss]   //vuln表示是什么漏洞（xss漏洞）
+Target "http://testphp.vulnweb.com/guestbook.php" //漏洞地址
+VulnType "reflected/default" 
+Payload "<script>alert(1)<script>" //漏洞指令
+Position "body" 
+ParamKey "text" 
 ParamValue "vjjsddkkvvphlooblgvo"
+```
+
+## 目的
+
+![](<../.gitbook/assets/image (8).png>)
+
+## 常用xss攻击代码
+
+![](<../.gitbook/assets/image (9).png>)
