@@ -76,7 +76,7 @@ A向B传输数据，C将数据替换
 
 ![搜索型注入](<../.gitbook/assets/image (5).png>)
 
-![数字型](<../.gitbook/assets/image (6).png>)
+![数字型](<../.gitbook/assets/image (6) (1).png>)
 
 ![字符型](<../.gitbook/assets/image (3).png>)
 
